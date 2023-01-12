@@ -1,3 +1,5 @@
+<title>CSE 15L Lab 1 Tutorial</title>
+
 ## Part 1: Installing VSCode
 Please go to <a href="https://code.visualstudio.com/download">this link</a> and download your corresponding visual studio code version. Once downloaded, be sure to click it to install it to your computer. Once installed, open visual studio code and voila, you have begun your coding journey.
 
