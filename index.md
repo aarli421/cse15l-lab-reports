@@ -1,8 +1,3 @@
-<html>
-<head>
-  <title>CSE 15L Lab 1 Tutorial</title>
-</head>
-
 ## Part 1: Installing VSCode
 Please go to <a href="https://code.visualstudio.com/download">this link</a> and download your corresponding visual studio code version. Once downloaded, be sure to click it to install it to your computer. Once installed, open visual studio code and voila, you have begun your coding journey.
 
@@ -17,4 +12,3 @@ Please search up your username on the <a href="https://sdacs.ucsd.edu/~icc/index
 Please proceed with testing different command line commands. To enter a command, you type in the command and then press enter. Some example commands include *cd* which is change directory, *ls* which is to list the files in a directory, *cp* which is to copy a file, and *cat* which is to see the contents of a file. Flags can be added to these commands in order to show more or less info.
 
 <img width="1330" alt="Screenshot 2023-01-12 at 2 37 06 PM" src="https://user-images.githubusercontent.com/35825663/212196187-9b3da6d9-850a-471e-8b2f-0958a193091d.png">
-</html>
