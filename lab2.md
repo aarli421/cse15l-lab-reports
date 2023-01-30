@@ -34,9 +34,11 @@ class StringServer {
 }
 ```
 The following screenshot shows the result of doing the add message request for the first time. Essentially, when the website gets a request, it will call the **handleRequest** method. This method takes in a url as its argument, which will then be checked to see if it matches any query. If it does, it will run the corresponding code. In this case, since the **/add-message** query was called, it gets the parameter of the url and adds it to the message. Since this is our first time running **/add-message**, the message value is currently empty. This request sets the message value to "Hello" because it is appended to the string.
+
 ![Screenshot 2023-01-30 at 2 42 57 PM](https://user-images.githubusercontent.com/35825663/215612978-8fa901ac-4df4-48c8-8dd2-3b0ed7be2ef1.png)
 
 The following screenshot shows the result after querying the add message request again. Once again, the **handleRequest** method within the Handler class gets called and the url is passed as the method's value. This url is then checked if it matches any query. Since the query matches with **/add-message**, the parameter of the url is extracted and added to the message. This time, the message value already has "Hello\n" stored in the message. Thus, when adding another string, it is added after the "Hello" to result in "Hello\nHow are you".
+
 ![Screenshot 2023-01-30 at 2 43 20 PM](https://user-images.githubusercontent.com/35825663/215613028-1da8bf5a-8e30-45a5-a59c-c3d7d95ddaef.png)
 
 ## Part 2
