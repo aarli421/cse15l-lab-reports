@@ -37,7 +37,7 @@ The following screenshot shows the result of doing the add message request for t
 
 ![Screenshot 2023-01-30 at 2 42 57 PM](https://user-images.githubusercontent.com/35825663/215612978-8fa901ac-4df4-48c8-8dd2-3b0ed7be2ef1.png)
 
-The following screenshot shows the result after querying the add message request again. Once again, the **handleRequest** method within the Handler class gets called and the url is passed as the method's value. This url is then checked if it matches any query. Since the query matches with **/add-message**, the parameter of the url is extracted and added to the message. This time, the message value already has "Hello\n" stored in the message. Thus, when adding another string, it is added after the "Hello" to result in "Hello\nHow are you".
+The following screenshot shows the result after querying the add message request again. Once again, the **handleRequest** method within the Handler class gets called and the url is passed as the method's value. This url is then checked if it matches any query. Since the query matches with **/add-message**, the parameter of the url is extracted and added to the message. This time, the message value already has "Hello\n" stored in the message. Thus, when adding another string, it is added after the "Hello" to result in "Hello\nHow are you".\
 
 ![Screenshot 2023-01-30 at 2 43 20 PM](https://user-images.githubusercontent.com/35825663/215613028-1da8bf5a-8e30-45a5-a59c-c3d7d95ddaef.png)
 
