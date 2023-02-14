@@ -1,7 +1,7 @@
 # `find` command
 The find command is a handy command line tool to navigate files and directories. The command also involves many expressions that can further improve the uses of the command. In this lab report, I will be going over 4 expressions that help boost the functionality of the `find` command.
 
-## Expression 1: `-type` in `find`
+## Expression 1: `-type`[^fn1] in `find`
 The first command line option for the `find` command I will be going over is the `-type` expression. This expression returns all files that are the same type as a specified type. These types are represented by a single letter and the most common ones are for directories and files:
 
 * `d` - directory
@@ -50,7 +50,7 @@ $ find ./written_2/non-fiction/OUP/Castro -type f
 ```
 The above example uses the `-type` expression with type `f` in the `./written_2/non-fiction/OUP/Castro` directory. This command then outputs all of the files in the specified directory. This can be useful when you want to know the number of files within a folder, or when you want to execute some command on all possible files in that folder. 
 
-## Expression 2: `-size` in `find`
+## Expression 2: `-size`[^fn2] in `find`
 The second command line option I will be going over is the `-size` expression. This expression returns all files that are the same file size as you desire. You can also use `+/-` to specify whether you want to find more than or less than certain file sizes.
 
 The command syntax for this expression:
@@ -89,7 +89,7 @@ $ find ./written_2 -size +80k -size -100k
 ```
 The above example uses the `-size` expression twice, once with `+80k` and another time with `-100k`. These two nested expressions essentially limit the file output to all files that are above 80 kilobytes but less than 100 kilobytes. This can be useful when you want to find files that are within a certain size range, in which you can then perform different operations on.
 
-## Expression 3: `-mtime` in `find`
+## Expression 3: `-mtime`[^fn3] in `find`
 The third command line expression I will be going over is the `-mtime` expression. This expression returns all files that have been modified recently within a certain time frame. You are able to specify a number `n` which corresponds to the number of days the files have been recently modified.
 
 The command syntax for this expression:
@@ -127,7 +127,7 @@ $ find ./written_2 -mtime -12 -type d
 ```
 The above example runs the `mtime` expression based on the past 12 days and outputs all directories. I created this project around 12 days ago, so all the files were first modified thne and thus all directories have been outputted. This is useful if you want to find out which directories have been created within a certain amount of days and see what the recent changes are.
 
-## Expression 4: `-maxdepth` in `find`
+## Expression 4: `-maxdepth`[^fn4] in `find`
 The fourth command line expression that I will be going over is the `-maxdepth` expression. This expression returns all files that are less than or equal to a certain depth `n`. Any directory or file within the target directory would have a depth of 1, their subdirectories and files would have a depth of 2, and so on.
 
 The command syntax for this expression:
@@ -197,3 +197,8 @@ $ find ./written_2/non-fiction/OUP -maxdepth 2 -type f
 ./written_2/non-fiction/OUP/Castro/chO.txt
 ```
 The above example runs the `-maxdepth` expression with a depth 2 to find all the files within the `./written_2/non-fiction/OUP` subdirectory. All the files displayed are the ones that have a depth of 2 from the target directory. This shows how useful the -maxdepth expression can be, where we are able to select only the files from a certain directory.
+
+[^fn1]: Source for `-type` [here]([url](https://ss64.com/osx/find.html))
+[^fn2]: Source for `-size` [here]([url](https://ss64.com/osx/find.html))
+[^fn3]: Source for `-mtime` [here]([url](https://ss64.com/osx/find.html))
+[^fn4]: Source for `-maxdepth` [here]([url](https://ss64.com/osx/find.html))
