@@ -70,8 +70,8 @@ The above code is if the run is not successful and there are some errors. We use
 
 ## Testing With Different Submissions
 I then tested my bash script on different versions of the list methods. The following screenshot is when I used the corrected version. Since it is a corrected version, it should input that it is all correct which is exactly what it outputs.
-![Screenshot 2023-03-13 at 9 07 12 PM](https://user-images.githubusercontent.com/35825663/224890646-f59988d1-aaf7-4de5-97db-3539317d5f26.png)
+![Screenshot 2023-03-13 at 9 07 12 PM](https://user-images.githubusercontent.com/35825663/224890646-f59988d1-aaf7-4de5-97db-3539317d5f26.png) \
 The following screenshot is when I used the incorrect version. Since it was the incorrect version and would cause an infinite loop, it should output an error for the testcase, which it does correctly.
-![Screenshot 2023-03-13 at 9 10 19 PM](https://user-images.githubusercontent.com/35825663/224891000-65c49b37-3643-43ec-a5ad-95b146d53e0a.png)
+![Screenshot 2023-03-13 at 9 10 19 PM](https://user-images.githubusercontent.com/35825663/224891000-65c49b37-3643-43ec-a5ad-95b146d53e0a.png) \
 Lastly, I wanted to test the compilation error part of the grading script. I forked the repository and made my own program that had syntax errors. My grading script automatically picked up on this and gave an error in the correct place.
 ![Screenshot 2023-03-13 at 9 10 41 PM](https://user-images.githubusercontent.com/35825663/224891046-94c9be66-08a9-43f2-a000-952a3072b456.png)
