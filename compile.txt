@@ -1,0 +1,10 @@
+ListExamples.java:4: error: <identifier> expected
+interface StringChecker { bo
+                            ^
+ListExamples.java:6: error: = expected
+class ListExamples {
+^
+ListExamples.java:49: error: reached end of file while parsing
+}
+ ^
+3 errors
